@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/mgn5lkx.css");
+
 * {
     box-sizing: border-box;
 }
@@ -5,8 +7,80 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'address-sans-pro', sans-serif;
+    font-weight: 400;    
+    font-style: normal;
+    font-size: 16px;
+}
+
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #9E9E9E; }
+.primary-text-color    { color: #4d4d4d; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+.btn-outline-primary {
+    border: 2px solid #BDBDBD;
+    color: #BDBDBD;
+}
+
+.btn-outline-primary:hover {
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+    color: #4d4d4d;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 5555555;
+    width: 100%;
 }
 
 .navbar-brand img {
-    width: 100px;
+    width: 40px;
 }
+
+.navbar-nav {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    color: #FFFFFF;
+    background-color: rgba(103, 118, 121, 0.6);
+    padding: 15px;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+}
+  
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+  
